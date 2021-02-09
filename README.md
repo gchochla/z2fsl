@@ -9,6 +9,8 @@
 
 > Contemporary state-of-the-art approaches to Zero-Shot Learning (ZSL) train generative nets to synthesize examples conditioned on the provided metadata. Thereafter, classifiers are trained on these synthetic data in a supervised manner. In this work, we introduce Z2FSL, an end-to-end generative ZSL framework that uses such an approach as a backbone and feeds its synthesized output to a Few-Shot Learning (FSL) algorithm. The two modules are trained jointly. Z2FSL solves the ZSL problem with a FSL algorithm, reducing, in effect, ZSL to FSL. A wide class of algorithms can be integrated within our framework. Our experimental results show consistent improvement over several baselines. The proposed method, evaluated across standard benchmarks, shows state-of-the-art or competitive performance in ZSL and Generalized ZSL tasks.
 
+Also, link to paper ([preprint](https://arxiv.org/pdf/2102.04379.pdf)).
+
 ---
 
 ## Results
@@ -99,7 +101,7 @@ scripts/run_fsl_cub.sh -m /path/to/fsl-directory -d /path/to/cub-root -c cuda:17
 
 ### Reproduce
 
-After you have succesfully downloaded the dataset of interest and gotten access to the corresponding  pretrained Few-shot learner, simply execute the corresponding script in `./scripts`, e.g. again for SUN in ZSL:
+After you have succesfully downloaded the dataset of interest and gotten access to the corresponding  pretrained Few-shot learner, simply execute the corresponding script in `./scripts`, e.g. again for CUB in ZSL:
 
 ```bash
 chmod +x scripts/run_cub.sh
