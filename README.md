@@ -2,6 +2,8 @@
 
 ![](https://img.shields.io/badge/-Z2FSL-blueviolet) ![](https://img.shields.io/badge/-official-green) ![](https://img.shields.io/badge/-Pytorch-red)
 
+Alse, check [this repo](https://github.com/gchochla/z2fsl-tfvaegan) for the Z2FSL implementation of TF-VAEGAN.
+
 ### Abstract
 
 ![z2fsl-pipeline](media/z2fsl-pipeline-wbg.png)
