@@ -74,12 +74,6 @@ First, you need to setup your environment. Activate your Python3 environment (`v
 pip install -e .[dev]
 ```
 
-### Download datasets
-
-To download our extracted features, click on the corresponding links:
-
-[CUB](https://drive.google.com/file/d/1-7THykV1U5HTfxLL_w1dYyZr_-KHsVoB/view?usp=sharing) (800MB) | [AwA2](https://drive.google.com/file/d/1l7r9x6KvgAeTcVANgueXdVNHPtFFfwkp/view?usp=sharing) (3GB) | [SUN](https://drive.google.com/file/d/1U-oYYlcXKU6-opdOKZr40kSyb4gqeHiK/view?usp=sharing) (1GB)
-
 ### **Pretrained** Few-shot learners
 
 Pretrained Few-shot learners are integral for our framework. Here we describe how you can either download pretrained models or train them yourselves. In any cases, it is highly suggested to save them under the same directory, as the interface only asks for the containing directory and the specific learner is retrieved internally by name.
